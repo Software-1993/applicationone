@@ -11,7 +11,7 @@ public class WelcomeController
     public ModelAndView getWelcomeMsg()
     {
     	ModelAndView mav = new ModelAndView();
-    	mav.addObject("msg", "Welcome to Ashok...!!");
+    	mav.addObject("msg", "Welcome to Avinash...!!");
     	mav.setViewName("index");
     	return mav;
     	
